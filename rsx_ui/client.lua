@@ -1,0 +1,30 @@
+print("[~r~R~y~U~r~I~w~] Client loaded")
+
+CreateThread(function()
+    while true do
+        TriggerEvent('esx_status:getStatus', 'hunger', function(status)
+            hunger = status.val / 10000
+        end)
+        TriggerEvent('esx_status:getStatus', 'thirst', function(status)
+            thirst = status.val / 10000
+        end)
+        SendNUIMessage({
+            food = hunger,
+            water = thirst,
+            o2 = GetPlayerUnderwaterTimeRemaining(PlayerPedId()),
+            health = (GetEntityHealth(PlayerPedId()) -100)
+        })
+        Wait(800)
+    end
+end)
+--[[RegisterCommand('togglehud', function(source, args)
+    if args[1] == 'true' then
+        SendNUIMessage({
+            action = "show"
+        })
+    elseif args[1] == 'false' then
+        SendNUIMessage({
+            action = "hide"
+        })
+    end
+end, false)]]
