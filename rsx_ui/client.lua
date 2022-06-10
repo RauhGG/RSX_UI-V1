@@ -17,14 +17,3 @@ CreateThread(function()
         Wait(800)
     end
 end)
---[[RegisterCommand('togglehud', function(source, args)
-    if args[1] == 'true' then
-        SendNUIMessage({
-            action = "show"
-        })
-    elseif args[1] == 'false' then
-        SendNUIMessage({
-            action = "hide"
-        })
-    end
-end, false)]]
