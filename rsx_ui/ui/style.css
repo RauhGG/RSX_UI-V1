@@ -4,11 +4,6 @@
     font-family: 'Roboto', sans-serif; 
 }
 
-body {
-    background-color: rgba(0,0,0,0.75);
-}
-
-
 #container {
     position: absolute;
     top: 2vw;
@@ -16,7 +11,7 @@ body {
 }
 .health-icon {
     position: absolute;
-    top: 49.8vw;
+    top: 51vw;
     left: 2.5vw;
     padding: .3vw 1.8vw .3vw .3vw;
     border-radius: .3vw;
@@ -36,7 +31,7 @@ body {
 
 .health {
     position: absolute;
-    top: 50.2vw;
+    top: 51.4vw;
     left: 4.2vw;
     color: white;
     transform: scale(1.1);
@@ -54,7 +49,7 @@ body {
 
 .food-icon {
     position: absolute;
-    top: 47.14vw;
+    top: 48.25vw;
     left: 3.3vw;
     padding: .3vw 1.8vw .3vw .3vw;
     border-radius: .3vw;
@@ -74,7 +69,7 @@ body {
 
 .food {
     position: absolute;
-    top: 47.5vw;
+    top: 48.54vw;
     left: 4.8vw;
     color: white;
     transform: scale(1.1);
@@ -92,7 +87,7 @@ body {
 
 .water-icon {
     position: absolute;
-    top: 47.18vw;
+    top: 48.25vw;
     left: 4vw;
     padding: .3vw 1.8vw .3vw .3vw;
     border-radius: .3vw;
@@ -112,7 +107,7 @@ body {
 
 .water {
     position: absolute;
-    top: 47.46vw;
+    top: 48.54vw;
     left: 5.3vw;
     color: white;
     transform: scale(1.1);
@@ -130,7 +125,7 @@ body {
 
 .air-icon {
     position: absolute;
-    top: 47.2vw;
+    top: 48.25vw;
     left: 7.9vw;
     padding: .3vw 1.8vw .3vw .3vw;
     border-radius: .3vw;
@@ -150,7 +145,7 @@ body {
 
 .air {
     position: absolute;
-    top: 47.6vw;
+    top: 48.54vw;
     left: 9.6vw;
     color: white;
     transform: scale(1.1);
