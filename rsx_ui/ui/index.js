@@ -3,10 +3,10 @@ $(() => {
     window.addEventListener('message', (event) => {
         let data = event.data;
 
-       if (data.health > 30) {
+       if (data.health > 50) {
             $('#vida').fadeOut()
         }
-       else if (data.health < 30) {
+       else if (data.health < 50) {
         $('.health').text(Math.round(data.health));
         $('#vida').fadeIn() 
             if (data.health == -100) {
@@ -14,15 +14,12 @@ $(() => {
             }
         }
 
-        if (data.o2 > 30) {
+        if (data.o2 > -1) {
             $('#aire').fadeOut()
         }
-       else if (data.o2 < 30) {
+       else if (data.o2 < -1) {
         $('.air').text(Math.round(data.o2));
         $('#aire').fadeIn() 
-            if (data.o2 == -100) {
-                $('.health').text('0')
-            }
         }
 
         if (data.food > 30) {
