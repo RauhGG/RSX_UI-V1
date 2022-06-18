@@ -2,4 +2,4 @@
 Es la primera interfaz que hago para FiveM, espero que os guste
 
 
-Preview en mi [Discord](https://dsc.gg/r_scrips)
+Preview en mi [Discord](https://dsc.gg/r_scripts)
